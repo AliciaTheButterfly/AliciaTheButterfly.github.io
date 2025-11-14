@@ -1,60 +1,79 @@
-/* Reset some default styles */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Page background & font */
+/* Fondo futurista */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
   color: #fff;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  padding: 40px 20px;
 }
 
-/* Heading */
+/* Título */
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Paragraph */
-p {
+/* Subtítulo */
+header p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
-  max-width: 500px;
-  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0.9;
 }
 
-/* Button styles */
+/* Cards */
+.phones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 18px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+/* Botón */
 button {
-  background: #fff;
-  color: #2575fc;
+  background: #00d4ff;
+  color: #000;
   font-size: 1.1rem;
-  font-weight: bold;
   padding: 12px 25px;
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+  font-weight: bold;
 }
 
 button:hover {
-  background: #2575fc;
-  color: #fff;
+  background: #00aacc;
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 button:active {
   transform: translateY(0);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
