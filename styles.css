@@ -37,6 +37,11 @@ header p {
   margin: 0 auto 40px;
 }
 
+.phones img {
+  border-radius: 4px;
+
+}
+
 .card {
   background: rgba(255, 255, 255, 0.08);
   padding: 25px;
