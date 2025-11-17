@@ -72,3 +72,4 @@ Botón de recomendación para saber cuál es el mejor móvil para ti.
 
 Botón de comprar para comprar los móviles.
 
+Añadido Favicon.ico.
