@@ -64,3 +64,11 @@ El proceso fue sencillo:
 
 ## 📁 Estructura del proyecto
 
+**Nuevos cambios:**
+
+Imágenes añadidas de iPhone 17 Pro Max, Samsung S25 Ultra, Google Pixel 10 Pro.
+
+Botón de recomendación para saber cuál es el mejor móvil para ti.
+
+Botón de comprar para comprar los móviles.
+
