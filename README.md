@@ -53,6 +53,8 @@ El proceso fue sencillo:
 - Un carácter extraño (`º`) en la etiqueta `<body>` del HTML.
 - Faltaba el favicon requerido.
 - Estilos iniciales poco relacionados con la temática asignada.
+- El layout estaba un tanto descolocado
+
 
 **Mejoras futuras:**
 - Añadir imágenes reales de los dispositivos.
