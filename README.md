@@ -1,77 +1,20 @@
-# Proyecto: Nuevos Móviles del Mercado
+# Repo-branch-EDD-actualizacion
 
-Este repositorio contiene una página web simple desplegada con **GitHub Pages**.  
-El proyecto presenta información básica sobre los smartphones más recientes del mercado.
+18/11/2025
 
----
+- He creado en CSS el ID buttonComprar para poder diferenciarlos del button al final de la página entera, lo cual creaba conflictos en la edición de la pagina.
+- Ahora los botones de COMPRAR estan centrados en el texto y su padding es una barra entera para evitar conflictos a la hora de desplazar estos botones.
+- Ahora los botones de COMPRAR tienen un hover y se les ha eliminado el subrayado a los enlaces para mejorar la estética de la página.
+- La tipografia de susodichos botones también ha sido cambiada por cuestiones estéticas.
+- Después de los previos cambios, he podido desplazar los botones de compra para que estén debajo de las imágenes de los productos por vender.
+- He tenido que cambiar la forma en la que se muestran las fotos, practicamente a su 100%, para poder hacer los cambios previos sin generar conflictos.
+- He suavizado ligeramente el color del backgroun de la página para el color azul de los botones sea más legible y estético.
 
-## 📝 Ciclo de vida del desarrollo del software
 
-### **1. Planificación**
 
-**Elección de temática:**  
-Decidimos crear una página informativa sobre los nuevos móviles del mercado, ya que es un tema actual, tecnológico y fácil de representar visualmente.
+  --------------------------------------------------         SUGERENCIAS POR HACER          ----------------------------
 
-**Usuarios definidos dentro de la aplicación:**
-1. **Usuario curioso**: Quiere información básica y rápida sobre los últimos smartphones.
-2. **Comprador potencial**: Busca comparar móviles antes de tomar una decisión de compra.
 
-**Requisitos del sistema:**
-1. La página debe mostrar al menos tres modelos de móviles nuevos.
-2. Debe incluir un botón que genere alguna interacción (por ejemplo, una recomendación sorpresa).
-3. El sitio debe ser accesible desde GitHub Pages.
-
----
-
-### **2. Diseño**
-
-El proyecto utiliza una estructura basada en la arquitectura **cliente-servidor**.  
-En este modelo:
-
-- El **cliente** es el navegador del usuario, que solicita la página web.
-- El **servidor** es GitHub Pages, que entrega los archivos HTML, CSS y JS al cliente.
-- No existe backend propio, por lo que es una arquitectura muy ligera y centrada en el contenido estático.
-
----
-
-### **3. Despliegue**
-
-La aplicación fue desplegada usando **GitHub Pages**, habilitando la publicación desde la rama `main`.  
-El proceso fue sencillo:
-
-1. Se creó el repositorio.
-2. Se añadieron los archivos HTML, CSS y JS.
-3. Se subieron cambios mediante ramas y merges.
-4. Desde *Settings → Pages*, se activó GitHub Pages.
-5. Tras unos segundos, la página quedó publicada.
-
----
-
-### **4. Mantenimiento**
-
-**Errores encontrados:**
-- Un carácter extraño (`º`) en la etiqueta `<body>` del HTML.
-- Faltaba el favicon requerido.
-- Estilos iniciales poco relacionados con la temática asignada.
-
-**Mejoras futuras:**
-- Añadir imágenes reales de los dispositivos.
-- Integrar una comparación más detallada entre los modelos.
-- Incorporar animaciones más avanzadas o efectos de scroll.
-- Crear una sección de opiniones de usuarios.
-
----
-
-## 📁 Estructura del proyecto
-
-**Nuevos cambios:**
-
-Imágenes añadidas de iPhone 17 Pro Max, Samsung S25 Ultra, Google Pixel 10 Pro.
-
-Botón de recomendación para saber cuál es el mejor móvil para ti.
-
-Botón de comprar para comprar los móviles.
-
-Añadido Favicon.ico.
-
-Script.js añadido.
+  * Buscar tipografías más estéticas y diferenciadoras entre el subheader, la descripción de los móviles y el título del propio producto.
+  * Distinción mas clara entre el background color y las cajas contenedoras para que su hover sea más estético.
+  * LA MAS IMPORTANTE: Hacer en CSS una plantilla para que las tres imagenes de los productos tengan el mismo tamaño, y usar fotografias de mejor calidad.
