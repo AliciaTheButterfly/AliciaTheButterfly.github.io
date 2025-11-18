@@ -77,3 +77,7 @@ Botón de comprar para comprar los móviles.
 Añadido Favicon.ico.
 
 Script.js añadido.
+---
+## Experiencia
+
+Desplegar web estaticas en Github pages es muy sencillo, si no usas ningun framework y te limitas a archivos HTML,CSS y JS vanilla. En el backend, esta extremadamente limitado. La página no puede alcanzar cierto tamaño de archivos lo que es una limitación esperada de un servicio gratis. El mayor problema ha sido acordar las branches entre compañeros y que cada uno suba a sus branches, haciendo una pull request a main. 
