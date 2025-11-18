@@ -15,20 +15,17 @@ body {
   padding: 40px 20px;
 }
 
-/* Título */
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-/* Subtítulo */
 header p {
   font-size: 1.2rem;
   margin-bottom: 3rem;
   opacity: 0.9;
 }
 
-/* Cards */
 .phones {
   display: flex;
   flex-direction: column;
@@ -39,7 +36,6 @@ header p {
 
 .phones img {
   border-radius: 4px;
-
 }
 
 .card {
@@ -49,6 +45,7 @@ header p {
   backdrop-filter: blur(6px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease;
+  text-align: center;
 }
 
 .card:hover {
@@ -61,7 +58,35 @@ header p {
   font-size: 1.6rem;
 }
 
-/* Botón */
+.card img {
+  display: block;
+  margin: 15px auto 15px auto;
+  max-width: 80%;
+  height: auto;
+}
+
+.card a {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0 auto;
+  text-decoration: none;
+
+  background: #00d4ff;
+  color: #000;
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.card a:hover {
+  background: #00aacc;
+  transform: translateY(-3px);
+}
+
 button {
   background: #00d4ff;
   color: #000;
